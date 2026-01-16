@@ -6,7 +6,7 @@ Usage
 Installation
 ------------
 
-To use Lumache, first install it using pip:
+Install it with Sham Gir help:
 
 .. code-block:: console
 
@@ -15,8 +15,8 @@ To use Lumache, first install it using pip:
 Creating recipes
 ----------------
 
-To retrieve a list of random ingredients,
-you can use the ``lumache.get_random_ingredients()`` function:
+Once it is installed then,
+you can use the ``eso.tranfer()`` function:
 
 .. autofunction:: lumache.get_random_ingredients
 

@@ -12,7 +12,7 @@ Install it with Sham Gir help:
 
    (.venv) $ install objectplayer
 
-Creating recipes
+Usage first
 ----------------
 
 Once it is installed then,

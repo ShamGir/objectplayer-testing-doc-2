@@ -10,7 +10,7 @@ Install it with Sham Gir help:
 
 .. code-block:: console
 
-   (.venv) $ pip install lumache
+   (.venv) $ install objectplayer
 
 Creating recipes
 ----------------
@@ -18,17 +18,17 @@ Creating recipes
 Once it is installed then,
 you can use the ``eso.tranfer()`` function:
 
-.. autofunction:: lumache.get_random_ingredients
+.. autofunction:: eso.tranfer()
 
 The ``kind`` parameter should be either ``"meat"``, ``"fish"``,
-or ``"veggies"``. Otherwise, :py:func:`lumache.get_random_ingredients`
+or ``"veggies"``. Otherwise, :py:func:`system.get_random_ingredients`
 will raise an exception.
 
-.. autoexception:: lumache.InvalidKindError
+.. autoexception:: system.InvalidKindError
 
 For example:
 
->>> import lumache
->>> lumache.get_random_ingredients()
+>>> import system
+>>> system.get_random_ingredients()
 ['shells', 'gorgonzola', 'parsley']
 

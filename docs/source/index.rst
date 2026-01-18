@@ -17,6 +17,25 @@ Contents
 --------
 
 .. toctree::
+   :maxdepth: 2
+   :caption: Getting Started
 
+   installation
+   quickstart
    usage
+
+.. toctree::
+   :maxdepth: 2
+   :caption: User Guide
+
+   configuration
+   examples
    api
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Community
+
+   contributing
+   changelog
+   faq
